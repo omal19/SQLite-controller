@@ -1,0 +1,11 @@
+Future todo:
+Adding functionalities for below settings,
+    isolation_level = “DEFERRED”, “IMMEDIATE” or “EXCLUSIVE”.
+    uri - https://www.sqlite.org/uri.html
+    In memory load, execute and write back to disk
+    Bulk insert, add batch commit
+    PRAGMA journal_mode = OFF;
+    PRAGMA synchronous = 0;
+    PRAGMA cache_size = 1000000;
+    PRAGMA locking_mode = EXCLUSIVE;
+    PRAGMA temp_store = MEMORY;
