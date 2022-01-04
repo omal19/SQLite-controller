@@ -9,12 +9,12 @@ SqliteController is a simple wrapper build over SQLite3 library, to make it's us
 
 ## Usage
 
-   * **select_query(query_string)** - returns cursor/generator object
-   * **select_query_fetchall(query_string)** - returns list of tuple
-   * **select_query_fetchall(query_string, as_dict=True)** - returns list of row as dict object
-   * **execute_query(query_string)** - to create, drop, delete table 
-   * **insert_update_row(query_string, values_list)** - insert/Update a single row
-   * **bulk_insert_update_rows(query_string, 2D_list_of_values)** - insert/Update a multiple rows
+   * **select_query(query_string)** - _returns cursor/generator object_
+   * **select_query_fetchall(query_string)** - _returns list of tuple_
+   * **select_query_fetchall(query_string, as_dict=True)** - _returns list of row as dict object_
+   * **execute_query(query_string)** - _to create, drop, delete table_ 
+   * **insert_update_row(query_string, values_list)** - _insert/Update a single row_
+   * **bulk_insert_update_rows(query_string, 2D_list_of_values)** - _insert/Update a multiple rows_
 
 Take a look at the [sample_usage.py](https://github.com/omal19/SQLite-controller/blob/main/sqliteController/sample_usage.py)
 
