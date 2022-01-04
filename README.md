@@ -9,7 +9,7 @@ SqliteController is a simple wrapper build over SQLite3 library, to make it's us
 
 ## Usage
 
-	** select_query(query_string) ** - returns cursor/generator object
+	**`select_query(query_string)`** - returns cursor/generator object
 	**select_query_fetchall(query_string)** - returns list of tuple
 	**select_query_fetchall(query_string, as_dict=True)** - returns list of row as dict object
 	**execute_query(query_string)** - to create, drop, delete table 
