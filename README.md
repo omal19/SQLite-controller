@@ -1,6 +1,6 @@
 [![Python](https://img.shields.io/static/v1?label=Python&message=3.6+|+3.7+|+3.8+|+3.9+|+3.10&color=2b5d80)](https://github.com/python)
 [![sqlite3](https://img.shields.io/static/v1?label=SQLite3&message=+&color=2b5d80)](https://github.com/python/cpython/tree/f4c03484da59049eb62a9bf7777b963e2267d187/Lib/sqlite3)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/simonw/sqlite-utils/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/omal19/SQLite-controller/blob/main/LICENSE)
 
 ## About
 
@@ -9,7 +9,7 @@ SqliteController is a simple wrapper build over SQLite3 library, to make it's us
 
 ## Usage
 
-	**select_query(query_string)** - returns cursor/generator object
+	** select_query(query_string) ** - returns cursor/generator object
 	**select_query_fetchall(query_string)** - returns list of tuple
 	**select_query_fetchall(query_string, as_dict=True)** - returns list of row as dict object
 	**execute_query(query_string)** - to create, drop, delete table 
